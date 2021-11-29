@@ -2,16 +2,18 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-}
-body {
   background: url("./Images/pineforest.jpg");
-  /* background-color: rgba(82, 103, 96, 0.25); */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+body {
+  background: white;
   text-align: center;
   border: 3px solid rgb(206, 47, 255);
 }
+
 .desc {
   border: 1px solid;
   width: 400px;
