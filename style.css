@@ -1,20 +1,39 @@
-* {
-  box-sizing: border-box;
+/* * {
   margin: 0px;
   padding: 0px;
   background: url("./Images/pineforest.jpg");
+  background: linear-gradient(
+    rgba(180, 194, 146, 0.5),
+    rgba(180, 194, 146, 0.5)
+  );
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+} */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
-  background: white;
+  background: linear-gradient(
+      rgba(180, 194, 146, 0.5),
+      rgba(180, 194, 146, 0.5)
+    ),
+    url(./Images/pineforest.jpg) center/cover no-repeat fixed;
   text-align: center;
   border: 3px solid rgb(206, 47, 255);
 }
 
+a:hover {
+  color: darkblue;
+}
+a {
+  text-decoration: none;
+}
 .desc {
+  background: rgba(95, 158, 160, 0.474);
   border: 1px solid;
   width: 400px;
   text-align: center;
@@ -23,4 +42,29 @@ body {
 }
 #lildeer {
   border: 3px solid orangered;
+}
+#home {
+  background: rgba(128, 128, 128, 0.7);
+  border: rgba(0, 0, 0, 0.254) solid 3px;
+  border-radius: 20%;
+}
+#about {
+  background: rgba(128, 128, 128, 0.7);
+  border: rgba(0, 0, 0, 0.254) solid 3px;
+  border-radius: 20%;
+}
+#codecamp {
+  background: rgba(128, 128, 128, 0.7);
+  border: rgba(0, 0, 0, 0.254) solid 3px;
+  border-radius: 20%;
+}
+#odin {
+  background: rgba(128, 128, 128, 0.7);
+  border: rgba(0, 0, 0, 0.254) solid 3px;
+  border-radius: 20%;
+}
+#contact {
+  background: rgba(128, 128, 128, 0.7);
+  border: rgba(0, 0, 0, 0.254) solid 3px;
+  border-radius: 20%;
 }
